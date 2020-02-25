@@ -1,5 +1,5 @@
 # sample-aws-tests
-Testing AWS S3 file load and querying s3 files using AWS Athena
+Testing loding parquet files to AWS S3 and creating tables, querying in Athena.
 
 # prerequisites
 configure aws authentication credentials
