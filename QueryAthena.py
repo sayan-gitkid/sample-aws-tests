@@ -1,7 +1,7 @@
 import time
 import boto3
 import pandas as pd
-from athena.DataPrep import DataPrep
+from DataPrep import DataPrep
 
 
 class QueryAthena:
