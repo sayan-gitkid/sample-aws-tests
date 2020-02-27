@@ -23,6 +23,10 @@ class DataPrep:
         )
         return df
 
+    @staticmethod
+    def read_tx_data(path):
+        return pd.read_csv(path)
+
     def load_to_s3(self, df):
         """
         convert dataframe to parquet and load to s3_path
